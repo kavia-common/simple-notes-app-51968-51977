@@ -1,13 +1,25 @@
-# Lightweight React Template for KAVIA
+# Simple Notes React App
 
-This project provides a minimal React template with a clean, modern UI and minimal dependencies.
+A minimal notes application built with React that allows users to create, edit, and delete text notes with localStorage persistence.
 
 ## Features
 
-- **Lightweight**: No heavy UI frameworks - uses only vanilla CSS and React
-- **Modern UI**: Clean, responsive design with KAVIA brand styling
-- **Fast**: Minimal dependencies for quick loading times
-- **Simple**: Easy to understand and modify
+- **Create Notes**: Add new notes with a simple click
+- **Edit Notes**: Click on any note to edit it inline
+- **Delete Notes**: Remove notes with confirmation dialog
+- **Search**: Real-time search through note titles and content
+- **Persist Data**: Notes are automatically saved to browser's localStorage
+- **Responsive**: Single-column layout that works on mobile and desktop
+- **Keyboard Shortcuts**: Cmd/Ctrl+S to save, Esc to cancel (empty new notes)
+
+## Data Persistence
+
+Notes are automatically saved to your browser's localStorage using the key `simple_notes.v1`. Your notes will persist between browser sessions and page refreshes. The app handles localStorage errors gracefully (e.g., private browsing mode).
+
+## Keyboard Shortcuts
+
+- **Cmd/Ctrl + S**: Save the current note while editing
+- **Esc**: Cancel editing (only works for new empty notes)
 
 ## Getting Started
 
