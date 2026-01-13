@@ -1,0 +1,12 @@
+This repository artifact is a placeholder for the generated PDF.
+
+To generate the actual PDF, render:
+simple-notes-app-51968-51977/notes_frontend/docs/Simple-Notes-App-Architecture-and-Usage.md
+
+Recommended commands (examples):
+- Using pandoc (if available):
+  pandoc Simple-Notes-App-Architecture-and-Usage.md -o Simple-Notes-App-Architecture-and-Usage.pdf
+- Using a Markdown-to-PDF tool in CI:
+  npx md-to-pdf Simple-Notes-App-Architecture-and-Usage.md
+
+The authoritative content is maintained in the Markdown source file.
